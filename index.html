@@ -13,16 +13,16 @@
       <nav class="main-navigation">
         <ul class="menu-list">
           <li>
-            <a>Информация</a>
+            <a href="news.html">Информация</a>
           </li>
           <li>
-            <a>фото и видео</a>
+            <a href="photoandvideo.html">фото и видео</a>
           </li>
           <li>
-            <a>Карта штата</a>
+            <a href="map.html">Карта штата</a>
           </li>
           <li>
-            <a>Гостиницы</a>
+            <a href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <a class="logo">
@@ -38,8 +38,7 @@
       <section class="uniqueness">
         <h2>Настоящий городок</h2>
         <p>-№1-</p>
-        <p>седонна - не аттракцион для туристов,
-           там течёт своя жизнь</p>
+        <p>седонна - не аттракцион для туристов, там течёт своя жизнь</p>
         <div class="nature">
           <img src="img/natures.jpg" alt="Природа" width="" height="">
         </div>
@@ -47,18 +46,15 @@
 
       <div class="proposal">
         <b>жилье</b>
-        <p>рекомендуем пожить в настоящем
-           мотеле, всё как в кино!</p>
+        <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
       </div>
       <div class="proposal">
         <b>еда</b>
-        <p>Всегда заказывайте фирменный бургер,
-           вы не разочаруетесь!</p>
+        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </div>
       <div class="proposal">
         <b>сувениры</b>
-        <p>не только китайского, но и местного
-           производства
+        <p>не только китайского, но и местного производства
         </p>
       </div>
 
@@ -66,8 +62,7 @@
         <h2>Там есть
           <br> мост дьявола</h2>
         <p>-№2-</p>
-        <p>да, по нему можно пройти! если конечно
-           вы осмелитесь</p>
+        <p>да, по нему можно пройти! если конечно вы осмелитесь</p>
         <div class="devil">
           <img src="img/devil-most.jpg" alt="Мост дьявола" width="" height="">
         </div>
@@ -77,22 +72,19 @@
           <h2>Небольшая Площадь
           </h2>
           <p>-№3-</p>
-          <p>Все достопримечательности
-             находятся очень близко</p>
+          <p>Все достопримечательности находятся очень близко</p>
         </div>
         <div class="advantage-list">
           <h2>Красивая дорога
           </h2>
           <p>-№4-</p>
-          <p>ехать в седону из лас-вегаса совсем
-             не скучно!</p>
+          <p>ехать в седону из лас-вегаса совсем не скучно!</p>
         </div>
         <div class="advantage-list">
           <h2>Мало туристов
           </h2>
           <p>-№5-</p>
-          <p>большинство едет в гранд каньон и
-             толпится там</p>
+          <p>большинство едет в гранд каньон и толпится там</p>
         </div>
       </section>
       <section class="interest">
@@ -100,7 +92,30 @@
         <p>Укажите предпологаемые даты поездки,
           <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </section>
-      <!--здесь будет форма-->
+      <section class="form">
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Поиск гостиницы в седоне</legend>
+            <p>
+              <label class="visually-hidden" for="race-date">Дата заезда:</label>
+              <input class="race-date-search" id="race-date" name="date-race" type="date" placeholder="24 Апреля 2018">
+            </p>
+            <p>
+              <label class="visyally-hidden" for="departure-date">Дата выезда:</label>
+              <input class="departure-date-search" id="departure-date" name="date-departure" type="date" placeholder="4 Июля 2018">
+            </p>
+            <p>
+              <label class="visually-hidden" for="grownup-number">Взрослые:</label>
+              <input class="grownup-number-search" name="grownup" id="grownup-number" type="number" placeholder="2">
+            </p>
+            <p>
+              <label class="visually-hidden" for="children-number">Дети:</label>
+              <input lass="children-number-search" name="children" id="children-number" type="number" placeholder="0">
+            </p>
+            <button class="button-search" type="button">НАЙТИ</button>
+          </fieldset>
+        </form>
+      </section>
       <div>
         <form></form>
       </div>
@@ -115,12 +130,17 @@
         </b>
       </div>
       <div class="social">
-        <a class="social-button twitter">
-        </a>
-        <a class="social-button facebook">
-        </a>
-        <a class="social-button youtube">
-        </a>
+      <ul>
+        <li>
+        <a class="social-button twitter">Твиттер</a>
+        </li>
+        <li>
+        <a class="social-button facebook">фейсбук</a>
+        </li>
+        <li>
+        <a class="social-button youtube">Ютуб</a>
+        </li>
+      </ul>
       </div>
       <div class="right">
         <a class="HTMLacademy">

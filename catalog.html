@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-   <div class="wrapper">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
     <header class="main-header">
       <nav class="main-navigation">
         <ul class="menu-list">
-          <li><a>Информация</a></li>
-          <li><a>фото и видео</a></li>
-          <li><a>Карта штата</a></li>
-          <li><a>Гостиницы</a></li>
+          <li>
+            <a href="news.html">Информация</a>
+          </li>
+          <li>
+            <a href="photoandvideo.html">фото и видео</a>
+          </li>
+          <li>
+            <a href="map.html">Карта штата</a>
+          </li>
+          <li>
+            <a href="catalog.html">Гостиницы</a>
+          </li>
         </ul>
         <a class="logo" href="#">
           <img src="img/index-logo.png" alt="Перейти на главную" width="" height="">
@@ -21,85 +31,137 @@
       </nav>
     </header>
     <main>
-     <div class="form">
-       <!--Здесь будет форма--> 
-     </div>
-       <section class="search">
-         <h3>Найдено: 3</h3>
-         <p>сортировка:</p>
-         <ul>
-         <li><a>по цене</a></li>
-         <li><a>по типу</a></li>
-         <li><a>по рейтингу</a></li>
-         </ul>
-         <a class="button-top">
-         </a>
-         <a class="button-bottom">   
+      <div class="form">
+        <form>
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <p>
+              <label class="visually-hidden" for="bassein-checkbox">Бассейн</label>
+              <input class="checkbox-bassein-search" id="bassein-checkbox" type="checkbox" name="bassein" checked>
+            </p>
+            <p>
+              <label class="visually-hidden" for="parking-checkbox">Парковка</label>
+              <input class="checkbox-parking-search" id="parking-checkbox" type="checkbox" name="parking">
+            </p>
+            <p>
+              <label class="visually-hidden" for="wifi-checkbox">WI-FI</label>
+              <input class="checkbox-wifi-search" id="wifi-checkbox" type="checkbox" name="Wi-fi">
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <p>
+              <label class="visually-hidden" for="hotel-checkbox">гостиница</label>
+              <input class="checkbox-hotel-search" id="hotel-checkbox" type="checkbox" name="hotel" checked>
+            </p>
+            <p>
+              <label class="visually-hidden" for="motel-checkbox">мотель</label>
+              <input class="checkbox-motel-search" id="motel-checkbox" type="checkbox" name="motel" checked>
+            </p>
+            <p>
+              <label class="visually-hidden" for="apartment-checkbox">апартаменты</label>
+              <input class="checkbox-apartment-search" id="apartment-checkbox" type="checkbox" name="apartment" checked>
+            </p>
+          </fieldset>
+          <p>
+            <label class="visually-hidden" for="price-range">Стоимость в сутки (Р)</label>
+            <br>
+            <input class="price-range-search" id="price-range" name="price" type="range">
+          </p>
+          <button class="price-button" type="button">Показать</button>
+        </form>
+      </div>
+      <section class="search">
+        <h3>Найдено: 3</h3>
+        <p>сортировка:</p>
+        <ul>
+          <li>
+            <a>по цене</a>
+          </li>
+          <li>
+            <a>по типу</a>
+          </li>
+          <li>
+            <a>по рейтингу</a>
+          </li>
+        </ul>
+        <a class="button-top">
         </a>
-       </section>
+        <a class="button-bottom">
+        </a>
+      </section>
 
-       <section class="hotel">
+      <section class="hotel">
         <a class="amara">
-            <img src="img/amara.jpg" alt="amara resolt & spa" width="" height="">
+          <img src="img/amara.jpg" alt="amara resolt & spa" width="" height="">
         </a>
-           <div>
-               <h3><a>amara resolt & spa</a></h3>             
-                 <p>гостиница</p>
-                 <p>от 4000 р.</p>  
-           </div>
-           <a>Подробнее</a>
-           <a>Забронировать</a>
-           <div class="star4"></div>
-           <p class="rating1">Рейтинг: 8,5</p>
-       </section>
+        <div>
+          <h3>
+            <a>amara resolt & spa</a>
+          </h3>
+          <p>гостиница</p>
+          <p>от 4000 р.</p>
+        </div>
+        <a>Подробнее</a>
+        <a>Забронировать</a>
+        <div class="star4"></div>
+        <p class="rating1">Рейтинг: 8,5</p>
+      </section>
 
-       <section class="hotel">
-            <a class="desert">
-                <img src="img/desert.jpg" alt="desert quail inn" width="" height="">
-            </a>
-               <div>
-                   <h3><a>desert quail inn</a></h3>
-                   <p>мотель</p>
-                   <p>от 3000 р.</p>
-               </div>
-               <a>Подробнее</a>
-               <a>Забронировать</a>
-               <div class="star3"></div>
-               <p class="rating2">Рейтинг: 8,9</p>
-           </section>
+      <section class="hotel">
+        <a class="desert">
+          <img src="img/desert.jpg" alt="desert quail inn" width="" height="">
+        </a>
+        <div>
+          <h3>
+            <a>desert quail inn</a>
+          </h3>
+          <p>мотель</p>
+          <p>от 3000 р.</p>
+        </div>
+        <a>Подробнее</a>
+        <a>Забронировать</a>
+        <div class="star3"></div>
+        <p class="rating2">Рейтинг: 8,9</p>
+      </section>
 
-           <section class="hotel">
-                <a class="villas">
-                    <img src="img/villas.jpg" alt="villas at poco diablo" width="" height="">
-                </a>
-                   <div>
-                       <h3><a>villas at poco diablo</a></h3>
-                         <p>Апартаменты</p>
-                         <p>от 2000 р.</p>
-                   </div>
-                   <a>Подробнее</a>
-                   <a>Забронировать</a>
-                   <div class="star2"></div>
-                   <p class="rating3">Рейтинг: 9,2</p>
-               </section>
-            </main>
-            <footer class="main-footer">
-                    <div class="left">
-                      <b><a href="#">#VISITSEDONA</a></b>
-                    </div>
-                    <div class="social">
-                      <a class="social-button twitter">
-                      </a>
-                       <a class="social-button facebook">
-                       </a>
-                       <a class="social-button youtube">
-                       </a>
-                    </div>
-                    <div class="right">
-                      <a class="HTMLacademy">
-                      </a>
-                    </div>
-             </footer>
-            </div>
-           </body>
-          </html>  
+      <section class="hotel">
+        <a class="villas">
+          <img src="img/villas.jpg" alt="villas at poco diablo" width="" height="">
+        </a>
+        <div>
+          <h3>
+            <a>villas at poco diablo</a>
+          </h3>
+          <p>Апартаменты</p>
+          <p>от 2000 р.</p>
+        </div>
+        <a>Подробнее</a>
+        <a>Забронировать</a>
+        <div class="star2"></div>
+        <p class="rating3">Рейтинг: 9,2</p>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="left">
+        <b>
+          <a href="#">#VISITSEDONA</a>
+        </b>
+      </div>
+      <div class="social">
+        <a class="social-button twitter">
+        </a>
+        <a class="social-button facebook">
+        </a>
+        <a class="social-button youtube">
+        </a>
+      </div>
+      <div class="right">
+        <a class="HTMLacademy">
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
