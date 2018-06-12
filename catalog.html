@@ -32,7 +32,7 @@
     </header>
     <main>
       <div class="form">
-        <form>
+        <form action="https://echo.htmlacademy.ru" method="get">
           <fieldset>
             <legend>Инфраструктура:</legend>
             <p>
@@ -63,12 +63,27 @@
               <input class="checkbox-apartment-search" id="apartment-checkbox" type="checkbox" name="apartment" checked>
             </p>
           </fieldset>
-          <p>
-            <label class="visually-hidden" for="price-range">Стоимость в сутки (Р)</label>
-            <br>
-            <input class="price-range-search" id="price-range" name="price" type="range">
-          </p>
-          <button class="price-button" type="button">Показать</button>
+          <div class="filter">
+            <div class="filter-range-wrapper">
+              <div class="filter-range">
+                <div class="filter-range-scale">
+                  <div class="filter-range-bar"></div>
+                </div>
+                <button class="filter-range-handle min"></button>
+                <button class="filter-range-handle max" style="left: 75%;"></button>
+              </div>
+            </div>
+
+            <div class="filter-interval">
+              <label>От
+                <input type="text" name="min-interval" value="0">
+              </label>
+              <label>До
+                <input type="text" name="max-interval" value="15000">
+              </label>
+            </div>
+          </div>
+          <button class="price-button" type="submit">Показать</button>
         </form>
       </div>
       <section class="search">
