@@ -1,3 +1,135 @@
 body {
-    
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: gray;
+    text-transform: uppercase;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color:#000000;
+
+    background-color: #ffffff;
+}
+
+.menu-list,
+.social ul{
+    list-style: none;
+}
+
+.menu-list a,
+.left a {
+    color: #000000;
+}
+
+.menu-list a:hover,
+.left a:hover {
+    color: #81b3d2;
+}
+
+.menu-list a:focus,
+.left a:focus {
+    color: #c9c9c9;
+}
+
+.reason {
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.reason p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    color: gray;
+    font-weight: normal;
+}
+
+.uniqueness {
+    color: white;
+    background-color: #81b3d2;
+}
+
+.uniqueness h2 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.proposal {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.proposal p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.advantage {
+    background-color: #eeeeee
+}
+
+.advantage-list h2{
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.interest {
+    text-align: center;
+}
+
+.interest h3 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.interest p {
+    line-height: 24px;
+}
+
+.modal-open {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #ffffff;
+
+    background-color: #766357;
+    border: none;
+}
+
+.form-search p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.search-form input {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.button-search {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #ffffff;
+
+    background-color: #81b3d2;
+    border: none;
 }
