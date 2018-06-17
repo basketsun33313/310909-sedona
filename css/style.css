@@ -6,6 +6,13 @@ body {
     text-transform: uppercase;    
 }
 
+.inner-page {
+    font-size: 14px;
+    line-height: 21px;
+    color: gray;
+    text-transform: uppercase;
+}
+
 a {
     text-decoration: none;
 }
@@ -112,6 +119,16 @@ a {
     border: none;
 }
 
+.modal-open:hover {
+    color: #ffffff;
+    background-color: #604e43;
+}
+
+.modal-open:focus {
+    color: #908883;
+    background-color: #503e33;
+}
+
 .form-search p {
     font-size: 14px;
     line-height: 26px;
@@ -133,3 +150,22 @@ a {
     background-color: #81b3d2;
     border: none;
 }
+
+.button-search:hover {  
+    color: #ffffff; 
+    background-color: #669ec0;
+}
+
+.button-search:focus {
+    color: #908883;
+    background-color: #5496bd;
+}
+
+.form-inner fieldset {
+    list-style: none;
+    border: none;
+}
+
+.form-inner form {
+    background-image: url("img/filter-background.jpg");
+} 
