@@ -167,5 +167,130 @@ a {
 }
 
 .form-inner form {
-    background-image: url("img/filter-background.jpg");
+    background-image: url("../img/filter-background.jpg");
+    background-repeat: no-repeat;
 } 
+
+.form-inner legend {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.form-inner label {
+    color: #ffffff;
+}
+
+.filter p {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.filter-interval input[type="text"] {
+    text-align: center;
+    color: #ffffff;
+    background: none;
+    border: 2px solid #ffffff;
+}
+
+.price-button {
+    color: #ffffff;
+    background: none;
+    border: 2px solid #ffffff;
+
+}
+
+.search h3 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.search p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.search li {
+   font-size: 12px;
+   line-height: 18px;
+   list-style: none;
+}
+
+.search li:nth-child(1) {
+    color: #81b3d2;
+}
+
+.search li:nth-child(2) {
+    border-bottom: 1px dashed #81b3d2;
+}
+
+.search li:nth-child(3) {
+    border-bottom: 1px dashed #81b3d2;
+}
+
+.hotel h3 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.hotel a:nth-child(3) {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #81b3d2;
+}
+
+.hotel a:nth-child(3):hover {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #669ec0;
+}
+
+.hotel a:nth-child(3):focus {
+    font-weight: bold;
+    color: #88b2ce;
+    background-color: #5496bd;
+}
+
+.hotel a:nth-child(4) {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #766357;
+}
+
+.hotel a:nth-child(4):hover {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #604e43;
+}
+
+.hotel a:nth-child(4):focus {
+    font-weight: bold;
+    color: #908883;
+    background-color: #503e33;
+}
+
+.rating {
+    background-color: #f2f2f2;
+}
+
+.left a {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.right svg:hover {
+    color: #98c1da;
+}
+
+.right svg:focus {
+    color: #666666;
+}
