@@ -18,6 +18,10 @@ a {
 }
 
 .main-navigation {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 1035px;
     margin: 0 auto;
     font-size: 14px;
@@ -28,11 +32,17 @@ a {
     background-color: #ffffff;
 }
 
+.main-navigation img {
+    position: absolute;
+    margin: 0 auto;
+}
+
 .menu-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
+   
 }
 
 .menu-list,
