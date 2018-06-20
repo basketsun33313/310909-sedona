@@ -18,12 +18,21 @@ a {
 }
 
 .main-navigation {
+    width: 1035px;
+    margin: 0 auto;
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
     color:#000000;
 
     background-color: #ffffff;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .menu-list,
@@ -287,10 +296,16 @@ a {
     font-weight: bold;
 }
 
-.right svg:hover {
-    color: #98c1da;
+.big-image {
+background-image: url("../img/background-main.jpg");
+background-repeat: no-repeat;
+background-position: 50% -127px;
 }
 
-.right svg:focus {
-    color: #666666;
+.big-image img {
+display: block;
+margin: 0 auto;
+width: 458px;
+height: 352px;
 }
+
