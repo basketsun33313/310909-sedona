@@ -2,8 +2,9 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 14px;
     line-height: 21px;
-    color: gray;
-    text-transform: uppercase;    
+    color: #666666;
+    text-transform: uppercase;
+    margin: 0;    
 }
 
 .inner-page {
@@ -13,16 +14,27 @@ body {
     text-transform: uppercase;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
 a {
     text-decoration: none;
 }
 
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%); 
+    z-index: 10;
+
+}
+
 .main-navigation {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1035px;
+    width: 1200px;
     margin: 0 auto;
     font-size: 14px;
     line-height: 26px;
@@ -32,17 +44,11 @@ a {
     background-color: #ffffff;
 }
 
-.main-navigation img {
-    position: absolute;
-    margin: 0 auto;
-}
-
 .menu-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-   
+    justify-content: space-around;
+
 }
 
 .menu-list,
@@ -82,14 +88,22 @@ a {
 }
 
 .uniqueness {
+    display: flex;
+    flex-direction: row;
     color: white;
     background-color: #81b3d2;
 }
 
 .uniqueness h2 {
+    text-align: center;
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
+}
+
+.main-proposal {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .proposal {
@@ -105,6 +119,7 @@ a {
 }
 
 .advantage {
+    display: flex;
     background-color: #eeeeee
 }
 
@@ -126,6 +141,10 @@ a {
 
 .interest p {
     line-height: 24px;
+}
+
+.form-search {
+    margin-left: 450px;
 }
 
 .modal-open {
@@ -186,6 +205,9 @@ a {
 }
 
 .form-inner form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-image: url("../img/filter-background.jpg");
     background-repeat: no-repeat;
 } 
@@ -222,6 +244,12 @@ a {
 
 }
 
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .search h3 {
     font-size: 21px;
     line-height: 26px;
@@ -236,6 +264,7 @@ a {
 }
 
 .search li {
+    display: inline;
    font-size: 12px;
    line-height: 18px;
    list-style: none;
@@ -251,6 +280,11 @@ a {
 
 .search li:nth-child(3) {
     border-bottom: 1px dashed #81b3d2;
+}
+
+.hotel {
+    display: flex;
+    justify-content: space-between;
 }
 
 .hotel h3 {
@@ -307,15 +341,20 @@ a {
 }
 
 .big-image {
-background-image: url("../img/background-main.jpg");
-background-repeat: no-repeat;
-background-position: 50% -127px;
+    background-image: url("../img/background-main.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% -127px;
 }
 
 .big-image img {
-display: block;
-margin: 0 auto;
-width: 458px;
-height: 352px;
+    display: block;
+    margin: 0 auto;
+    width: 458px;
+    height: 352px;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
