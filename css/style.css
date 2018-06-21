@@ -29,12 +29,10 @@ a {
     top: 0;
     transform: translateX(-50%); 
     z-index: 10;
-
 }
 
 .main-navigation {
     position: relative;
-    width: 1200px;
     margin: 0 auto;
     font-size: 14px;
     line-height: 26px;
@@ -286,6 +284,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 
 .hotel h3 {
     font-size: 21px;
