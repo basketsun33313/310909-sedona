@@ -263,8 +263,11 @@ a {
 
 .search {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+
+.search-sort {
+    width: 290px;
+    margin-left: 50px;
 }
 
 .search h3 {
@@ -301,7 +304,6 @@ a {
 
 .hotel {
     display: flex;
-    justify-content: space-between;
 }
 
 
