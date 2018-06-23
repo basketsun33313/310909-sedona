@@ -55,17 +55,17 @@ a {
 }
 
 .menu-list a,
-.left a {
+.footer-column a:nth-child(1) {
     color: #000000;
 }
 
 .menu-list a:hover,
-.left a:hover {
+.footer-column a:nth-child(1):hover {
     color: #81b3d2;
 }
 
 .menu-list a:focus,
-.left a:focus {
+.footer-column a:nth-child(1):focus {
     color: #c9c9c9;
 }
 
@@ -100,6 +100,7 @@ a {
 .uniqueness-image {
     height: 256px;
     width: 800px;
+    overflow: hidden;
 }
 
 .uniqueness h2 {
@@ -354,7 +355,7 @@ a {
     background-color: #f2f2f2;
 }
 
-.left a {
+.footer-column:nth-child(1) {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
@@ -377,4 +378,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.footer-column {
+    width: 400px;
 }
