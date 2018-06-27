@@ -202,12 +202,15 @@ a {
 }
 
 .modal-open {
+    width: 570px;
+    height: 86px;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
     color: #ffffff;
 
     background-color: #766357;
+    background-position: center;
     border: none;
 }
 
@@ -234,6 +237,8 @@ a {
 }
 
 .button-search {
+    width: 458px;
+    height: 58px;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
