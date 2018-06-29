@@ -106,15 +106,17 @@ a {
 }
 
 .uniqueness-description {
-    height: 256px;
+    padding: 47px 48px 24px;
     width: 400px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .uniqueness-image {
-    height: 256px;
+    display: block;
     width: 800px;
     overflow: hidden;
+    height: 256px;
 }
 
 .uniqueness h2 {
@@ -461,43 +463,58 @@ footer {
 }
 
 .footer-column {
-    width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
 }
 
 .social {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
 
+.social li {
+  margin-left: 2px;
+  margin-right: 4px;
 }
 
 .social-button {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: #81B3D2;
-    margin-right: 10px;
-    vertical-align: middle;
-    background-image: url(../img/youtube.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
 }
 
-.social-button:nth-child(1) {
-    background-image: url(../img/twitter.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.social-button:hover {
+  background-color: #669ec0;
 }
 
-.social-button:nth-child(3) {
-    background-image: url(../img/fb-icon.svg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+.social-button:active {
+  background-color: #5496bd;
 }
 
+.social-button:active svg {
+  fill-opacity: 0.3;
+}
 
+.htmlacademy {
+    margin-top: 120px;
+    margin-left: 10px;
+}
 
+.htmlacademy:hover path {
+fill: #669ec0;
+}
 
+.htmlacademy:focus path {
+    fill: #D7D6D6;
+}
 
 
 
