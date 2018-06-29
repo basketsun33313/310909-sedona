@@ -214,6 +214,7 @@ a {
     height: 256px;
     width: 400px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .advantage-list h2{
@@ -346,9 +347,14 @@ a {
 
 .search {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90px;
+    padding-left: 50px;
 }
 
 .search-sort {
+    padding-left: 150px;
     width: 290px;
     margin-left: 50px;
 }
@@ -387,8 +393,8 @@ a {
 
 .hotel {
     display: flex;
+    align-items: center;
 }
-
 
 .hotel h3 {
     font-size: 21px;
