@@ -564,12 +564,8 @@ a {
     color: #81b3d2;
 }
 
-.search li:nth-child(2) {
-    border-bottom: 1px dashed #81b3d2;
-}
-
-.search li:nth-child(3) {
-    border-bottom: 1px dashed #81b3d2;
+.search-sort a {
+    border-bottom: 1px dotted #81b3d2;
 }
 
 .button-search-sort {
