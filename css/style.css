@@ -347,16 +347,33 @@ a {
 
 .search {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    height: 90px;
-    padding-left: 50px;
+    padding: 23px 72px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .search-sort {
-    padding-left: 150px;
-    width: 290px;
-    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 740px;
+}
+
+.search-sort p {
+    width: 105px;
+}
+
+.search-sort ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.search-sort li {
+    padding-right: 33px;
 }
 
 .search h3 {
@@ -364,6 +381,8 @@ a {
     line-height: 26px;
     font-weight: bold;
     color: #000000;
+    width: 134px; 
+    margin: 0;
 }
 
 .search p {
