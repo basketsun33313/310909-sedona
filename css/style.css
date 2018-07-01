@@ -704,23 +704,26 @@ a {
 
 .star4 {
     max-width: 110px;
-    width: 72px;
+    width: 80px;
     height: 17px;   
     background-image: url(../img/star.svg);
+    background-repeat: space;
 }
 
 .star3 {
     max-width: 100px;
-    width: 55px;
+    width: 60px;
     height: 17px;
     background-image: url(../img/star.svg);
+    background-repeat: space;
 }
 
 .star2 {
     max-width: 50px;
-    width: 35px;
+    width: 40px;
     height: 17px;
     background-image: url(../img/star.svg);
+    background-repeat: space;
 }
 
 .rating {
@@ -743,7 +746,7 @@ a {
     background-image: url("../img/background-main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% -127px;
+    background-position: 50% -90px;
 }
 
 .big-image img {
