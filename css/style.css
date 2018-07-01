@@ -704,6 +704,21 @@ a {
 
 .star4 {
     max-width: 110px;
+    width: 72px;
+    height: 17px;   
+    background-image: url(../img/star.svg);
+}
+
+.star3 {
+    max-width: 100px;
+    width: 55px;
+    height: 17px;
+    background-image: url(../img/star.svg);
+}
+
+.star2 {
+    max-width: 50px;
+    width: 35px;
     height: 17px;
     background-image: url(../img/star.svg);
 }
@@ -736,6 +751,7 @@ a {
     margin: 0 auto;
     width: 458px;
     height: 352px;
+    background-position: 40% 50%;
 }
 
 .big-image::after {
