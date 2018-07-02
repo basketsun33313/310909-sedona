@@ -2,10 +2,11 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 14px;
     line-height: 21px;
-    color: #666666;
+    color: #333333;
     text-transform: uppercase;
     margin: 0;
     padding: 0;   
+    background-color: #f2f2f2
 }
 
 .inner-page {
@@ -163,7 +164,7 @@ a {
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
-    color: #000000;
+    color: #333333;
     width: 400px;
 }
 
@@ -178,6 +179,7 @@ a {
     font-size: 14px;
     font-weight: normal;
     text-align: center;
+    color: #333333;
 }
 
 .house::before {
@@ -277,6 +279,7 @@ a {
     line-height: 26px;
     font-weight: bold;
     color: #ffffff;
+    text-transform: uppercase;
 
     background-color: #766357;
     border: none;
@@ -428,6 +431,7 @@ a {
   line-height: 26px;
   color: #ffffff;
   background-color: #81b3d2;
+  text-transform: uppercase;
 }
 
 .search-form .btn:hover {
@@ -472,6 +476,7 @@ a {
     background-image: url("../img/filter-background.jpg");
     background-repeat: no-repeat;
     background-position: 50% 16%;
+    height: 217px;
 } 
 
 .form-inner legend {
@@ -836,7 +841,10 @@ fill: #669ec0;
     fill: #D7D6D6;
 }
 
-
+.paragraf {
+    font-size: 14px;
+    line-height: 26px;
+}
 
 
 
@@ -888,7 +896,7 @@ fill: #669ec0;
   display: inline-block;
 
   font-size: 14px;
-  line-height: 38px;
+  line-height: 21px;
   vertical-align: top;
 
   cursor: pointer;
@@ -962,7 +970,7 @@ fill: #669ec0;
   padding: 6px 35px;
 
   font-size: 14px;
-  line-height: 20px;
+  line-height: 21px;
   color: #ffffff;
   text-transform: uppercase;
 
@@ -977,3 +985,4 @@ fill: #669ec0;
 
   background: #ffffff;
 }
+
