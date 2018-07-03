@@ -777,6 +777,7 @@ a {
 }
 
 .main-footer {
+  position: absolute;
   display: flex;
   padding: 36px 0;
   justify-content: space-around;
@@ -892,6 +893,7 @@ a {
   font-size: 14px;
   line-height: 21px;
   vertical-align: top;
+  padding-top: 6px; 
 
   cursor: pointer;
 }
