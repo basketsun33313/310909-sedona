@@ -35,35 +35,39 @@
     <main>
       <div class="form-inner">
         <form action="https://echo.htmlacademy.ru" method="get">
-          <fieldset>
-            <legend>Инфраструктура:</legend>
-            <p>
-              <label class="visually-hidden" for="bassein-checkbox">Бассейн</label>
-              <input class="checkbox-bassein-search" id="bassein-checkbox" type="checkbox" name="bassein" checked>
-            </p>
-            <p>
-              <label class="visually-hidden" for="parking-checkbox">Парковка</label>
-              <input class="checkbox-parking-search" id="parking-checkbox" type="checkbox" name="parking">
-            </p>
-            <p>
-              <label class="visually-hidden" for="wifi-checkbox">WI-FI</label>
-              <input class="checkbox-wifi-search" id="wifi-checkbox" type="checkbox" name="Wi-fi">
-            </p>
+          <fieldset class="form-inner__fieldset">
+            <legend class="form-inner__legend">Инфраструктура:</legend>
+            <ul class="form-inner  input-catalog">
+            	<li class="form-inner__checkbox">
+              <label class="label-checkbox" for="bassein-checkbox">Бассейн</label>
+              <input class="checkbox-search visually-hidden" id="bassein-checkbox" type="checkbox" name="bassein" checked>
+            	</li>
+            	<li class="form-inner__checkbox">
+              <label class="label-checkbox" for="parking-checkbox">Парковка</label>
+              <input class="checkbox-search visually-hidden" id="parking-checkbox" type="checkbox" name="parking">
+            	</li>
+            	<li class="form-inner__checkbox">
+              <label class="label-checkbox" for="wifi-checkbox">WI-FI</label>
+              <input class="checkbox-search visually-hidden" id="wifi-checkbox" type="checkbox" name="Wi-fi">
+            	</li>
+            </ul>
           </fieldset>
-          <fieldset>
-            <legend>Тип жилья:</legend>
-            <p>
-              <label class="visually-hidden" for="hotel-checkbox">гостиница</label>
-              <input class="checkbox-hotel-search" id="hotel-checkbox" type="checkbox" name="hotel" checked>
-            </p>
-            <p>
-              <label class="visually-hidden" for="motel-checkbox">мотель</label>
-              <input class="checkbox-motel-search" id="motel-checkbox" type="checkbox" name="motel" checked>
-            </p>
-            <p>
-              <label class="visually-hidden" for="apartment-checkbox">апартаменты</label>
-              <input class="checkbox-apartment-search" id="apartment-checkbox" type="checkbox" name="apartment" checked>
-            </p>
+          <fieldset class="form-inner__fieldset">
+            <legend class="form-inner__legend">Тип жилья:</legend>
+            <ul class="form-inner  input-catalog">
+            	<li class="form-inner__checkbox">
+              <label class="label-checkbox" for="hotel-checkbox">гостиница</label>
+              <input class="checkbox-search visually-hidden" id="hotel-checkbox" type="checkbox" name="hotel" checked>
+            	</li>
+            	<li class="form-inner__checkbox">
+              <label class="label-checkbox" for="motel-checkbox">мотель</label>
+              <input class="checkbox-search visually-hidden" id="motel-checkbox" type="checkbox" name="motel" checked>
+            	</li>
+            	<li class="form-inner__checkbox">
+              <label class="label-checkbox" for="apartment-checkbox">апартаменты</label>
+              <input class="checkbox-search visually-hidden" id="apartment-checkbox" type="checkbox" name="apartment" checked>
+            	</li>
+            </ul>
           </fieldset>
           <div class="filter-range">
             <div class="filter-range-title">Стоимость в сутки (р):</div>

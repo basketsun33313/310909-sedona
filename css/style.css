@@ -465,6 +465,10 @@ a {
 .form-inner fieldset {
   list-style: none;
   border: none;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .form-inner form {
@@ -483,6 +487,46 @@ a {
   font-size: 16px;
   line-height: 21px;
   font-weight: bold;
+  margin: 0;
+}
+
+.input-catalog {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.form-inner__checkbox {
+      margin: 25px 0;
+}
+ 
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+.label-checkbox {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.label-checkbox::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/checkbox-off.svg);
+    background-repeat: no-repeat;
 }
 
 .form-inner label {
@@ -777,7 +821,6 @@ a {
 }
 
 .main-footer {
-  position: absolute;
   display: flex;
   padding: 36px 0;
   justify-content: space-around;
@@ -790,6 +833,27 @@ a {
   justify-content: center;
   align-items: center;
   width: 400px;
+}
+
+.footer-index {
+  position: absolute;
+  z-index: 20;
+  bottom: 0;
+  background-color: rgba(254,254,254,0.9);
+}
+
+.map {
+  position: relative;
+  height: 593px;
+  overflow: hidden;
+}
+
+.map-image {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 5;
 }
 
 .social {
