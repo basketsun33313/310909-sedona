@@ -530,9 +530,9 @@ a {
     background-repeat: no-repeat;
 }
 
-.checkbox-search:checked {
+.checkbox-search:checked + label::before {
   width: 27px;
-  background-image: url(..img/checkbox-on.svg);
+  background-image: url(../img/checkbox-on.svg);
 } 
 
 
