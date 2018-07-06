@@ -129,7 +129,7 @@ a {
 }
 
 .uniqueness-description {
-  padding: 40px 40px 20px;
+  padding: 47px 4% 24px;
   width: 400px;
   text-align: center;
   box-sizing: border-box;
@@ -147,6 +147,8 @@ a {
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
+  margin: 0 auto 23px;
+  max-width: 160px;
 }
 
 .uniqueness-reverse {
@@ -230,10 +232,7 @@ a {
 
 .advantage-list {
   display: block;
-  padding-bottom: 25px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 63px;
+  padding: 47px 5% 45px;
   height: 256px;
   width: 400px;
   text-align: center;
@@ -241,6 +240,8 @@ a {
 }
 
 .advantage-list h2 {
+  margin: 0 auto 23px;
+  max-width: 160px;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -466,10 +467,10 @@ a {
 .form-inner fieldset {
   list-style: none;
   border: none;
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-    border: 0;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .form-inner form {
@@ -480,7 +481,6 @@ a {
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
   background-position: 50% 16%;
-  height: 217px;
 }
 
 .form-inner legend {
@@ -563,7 +563,7 @@ a {
 .search {
   display: flex;
   align-items: center;
-  padding: 23px 72px;
+  padding: 23px 6% 21px;
   border-bottom: 1px solid #e5e5e5;
 }
 
