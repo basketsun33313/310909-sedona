@@ -354,7 +354,7 @@ a {
 
 .search-form-row label {
   width: 112px;
-  color: black;
+  color: #000000;
 }
 
 .search-form-row input {
@@ -374,7 +374,8 @@ a {
 
 .search-form-row input:focus {
   background-color: #ffffff;
-  outline-color: #e5e5e5;
+  outline: 1px solid #e5e5e5;
+  outline-offset: -2px;
 }
 
 .wrapper-date input {
@@ -532,6 +533,8 @@ a {
   width: 1px;
   height: 1px;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
 
 .label-checkbox {
@@ -644,6 +647,10 @@ a {
   border-bottom: 1px dotted #81b3d2;
 }
 
+.search-sort a.active {
+  border-bottom: 0;
+}
+
 .button-search-sort {
   display: flex;
   justify-content: flex-end;
@@ -678,6 +685,10 @@ a {
   border-right: 5.5px solid transparent;
   border-bottom: 10px solid #cacaca;
   transform: rotate(180deg);
+}
+
+.button-bottom.active {
+  border-bottom-color: #81b3d2;
 }
 
 .button-bottom:focus {
@@ -812,11 +823,11 @@ a {
   margin-bottom: 0;
   padding: 3px 13px;
   background-color: #f2f2f2;
-  color: black;
+  color: #000000;
 }
 
 .rating p {
-  color: black;
+  color: #000000;
 }
 
 .footer-column:nth-child(1) {
@@ -942,7 +953,7 @@ a {
 .paragraf {
   font-size: 14px;
   line-height: 26px;
-  color: black;
+  color: #000000;
 }
 
 /* Стили для фильтра */
@@ -1003,7 +1014,7 @@ a {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 60px;
 }
 
 .price-controls input {
