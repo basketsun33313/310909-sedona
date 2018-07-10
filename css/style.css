@@ -1,5 +1,5 @@
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: #333333;
@@ -117,7 +117,7 @@ a {
   text-align: center;
   font-size: 14px;
   line-height: 26px;
-  color: gray;
+  color: #333333;
   font-weight: normal;
 }
 
@@ -353,6 +353,7 @@ a {
 
 .search-form-row label {
   width: 112px;
+  color: black;
 }
 
 .search-form-row input {
@@ -518,18 +519,18 @@ a {
 }
 
 .form-inner__checkbox {
-      margin: 25px 0;
+  margin: 25px 0;
 }
  
 .visually-hidden {
-    position: absolute;
-    overflow: hidden;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    white-space: nowrap;
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
 }
 
 .label-checkbox {
@@ -539,15 +540,15 @@ a {
 }
 
 .label-checkbox::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 23px;
-    height: 23px;
-    background-image: url(../img/checkbox-off.svg);
-    background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 23px;
+  height: 23px;
+  background-image: url(../img/checkbox-off.svg);
+  background-repeat: no-repeat;
 }
 
 .checkbox-search:checked + label::before {
@@ -810,6 +811,11 @@ a {
   margin-bottom: 0;
   padding: 3px 13px;
   background-color: #f2f2f2;
+  color: black;
+}
+
+.rating p {
+  color: black;
 }
 
 .footer-column:nth-child(1) {
@@ -877,11 +883,11 @@ a {
 }
 
 .map-image {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    z-index: 5;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 5;
 }
 
 .social {
@@ -935,6 +941,7 @@ a {
 .paragraf {
   font-size: 14px;
   line-height: 26px;
+  color: black;
 }
 
 /* Стили для фильтра */
